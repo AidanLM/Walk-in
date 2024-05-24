@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html>
+<head>
+<title>Welcome to IT Helpdesk</title>
+<style>
+body {
+    background-image: url("images/Knoxwallpaper.jpg"); 
+    background-size: cover; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.content-box {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    padding: 40px; /* Adjust padding for space around elements */
+    border-radius: 10px; /* Optional: Rounded corners */
+    margin: 50px auto; /* Center the box and add margin */
+    max-width: 500px; /* Optional: Set a maximum width for the box */
+}
+
+h1 {
+    font-size: 48px; /* Adjust the size as needed */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px; 
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+button {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    background-color: white;
+    color: blue;
+    border: none;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="content-box">  
+    <h1>Welcome to IT Helpdesk</h1>
+    <p>Please scan your ID Card or enter your Student/Staff Code</p>
+    <input type="text" placeholder="Enter code here">  
+
+    <div class="container">
+        <button>I don't have my card</button>
+        <button>I am a external member</button>
+    </div>
+</div>
+
+</body>
+</html>

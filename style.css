@@ -1,0 +1,6 @@
+body {
+    background-image: url('images/your-background-image.jpg'); 
+    background-size: contain; /* or cover, or specific dimensions */
+    background-position: center; /* Adjust if needed */
+    /* ... (other styles) ... */
+}
